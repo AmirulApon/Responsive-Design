@@ -1,33 +1,129 @@
 @media only screen and (min-width:0px) and (max-width:767.98px) {
   header{
-    border: 2px solid #f00;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 20px;
+  
   }
   nav ul li a {
-    color: #000;
-    padding: 8px 10px;
+     padding: 8px 10px;
     font-size: 12px;
     display: block;
 }
+header img{
+  width: 70px;
+  height: 35px;
+}
+.header-content {
+  margin-top: 60px;
+}
+.header-content h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+.big-btn {
+  padding: 15px 40px;
+}
+.title-content {
+  padding-top: 60px;
+  max-width: 100%;
+  max-width: 400px;
+}
+.title-content p{
+    font-size: 20px;
+    padding: 10px;   
+}
+.service-outline{
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-box{
+width: 97%;
+}
 
+.service-box h2{
+font-size: 20px ;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 17px;
+}
+.service-box p{
+font-size: 16px;
+max-width: 300px;
+margin: 0px auto;
+margin-bottom: 60px;
+}
+footer{
+  margin:  auto;
+  max-width : 400px;
+  text-align: center;
+}
   /* End Mobile view */
 }
 
 /*----------Small devices Tablets------------*/
 @media only screen and (min-width:768px) and (max-width:991.98px) {
   header{
-    border: 2px solid #000;
+    padding: 40px;
   }
+  nav ul li a {
+    padding: 12px 16px;
+    font-size: 12px;
+    display: block;
+}
+.header-content {
+  margin-top: 50px;
+}
+.header-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+.big-btn {
+  padding: 15px 40px;
+}
+.title-content {
+  padding-top: 60px;
+  max-width: 100%;
+  max-width: 519px;
+}
+.title-content p{
+    font-size: 20px;
+    padding: 10px;   
+}
+.service-outline{
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-box{
+width: 46.5%;
+}
+
+.service-box h2{
+font-size: 20px ;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 17px;
+}
+.service-box p{
+font-size: 16px;
+max-width: 300px;
+margin: 0px auto;
+margin-bottom: 60px;
+}
+footer{
+  margin:  auto;
+  max-width : 600px;
+  text-align: center;
+}
   /* End Small devices Tablets */
 }
 
 /*---------- iPad pro Width Small Laptop------------*/
 @media only screen and (min-width:992px) and (max-width:1366px) {
-  header{
-    border: 2px solid rgb(196, 162, 23);
-  }
+ 
 /* End iPad pro Width Small Laptop */
 }
