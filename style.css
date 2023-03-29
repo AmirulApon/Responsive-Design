@@ -1,0 +1,166 @@
+body {
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.big-btn {
+  padding: 30px 80px;
+  background-color: #eb7d4b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+#section-1 {
+  background-color: #87509c;
+  min-height: 595px;
+}
+header {
+  padding-top: 55px;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  border-radius: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 19px;
+}
+nav ul li.active {
+  background-color: #643a79;
+}
+.header-content {
+  margin-top: 130px;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+/* ------end-section-1-------- */
+#section-2 {
+  background-color: #17c2a4;
+  min-height: 745px;
+}
+.title-content {
+  padding-top: 112px;
+  text-align: center;
+  color: #fff;
+  max-width: 609px;
+  margin: 0px auto;
+}
+ .line{
+    width: 75px;
+    height: 2px;
+    background-color: #000;
+    opacity: 15%;
+    margin: 22px auto 26px ;
+}
+.title-content p{
+    font-size: 18px;
+    
+}
+.service-outline{
+    margin-top: 80px;
+}
+.service-box{
+width: 23.33%;
+display: inline-block;
+text-align: center;
+}
+.service-box h2{
+font-size: 24px ;
+font-weight: bold;
+margin-top: 60px;
+margin-bottom: 17px;
+}
+.service-box p{
+font-size: 16px;
+max-width: 200px;
+margin: 0px auto;
+}
+/* -------end-section-2------- */
+#section-3{
+    background-color: #3c5499;
+    min-height: 820px;
+
+}
+#contact-form{
+    max-width: 876px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+input[type="text"],input[type="email"],textarea{
+    color: white;
+    background-color: #273a71;
+    font-size: 18px;
+    margin: 16px; 
+    padding-left: 16px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,textarea::placeholder{
+    color: #fff;
+    
+    
+}
+input[type="text"],input[type="email"]{
+    width: 50%;
+    height: 56px;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding-top: 24px;
+    border: none;
+}
+.form-row{
+    display: flex;
+}
+.form-row .big-btn{
+    background-color: #30bae7;
+    margin: 0 auto;
+    margin-bottom: 114px;
+}
+#section-4{
+    background-color: #344b8e;
+    
+    margin: auto;
+    
+}
+footer{
+    margin:  auto;
+    max-height: 510px;
+    text-align: center;
+}
+footer ul{
+    padding: 25px 0;
+}
+footer ul li {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+
+  }
+  footer ul li.active a{
+    color: #319ccf;
+  }
